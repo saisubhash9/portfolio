@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who is Sai Manam?</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Include Font Awesome -->
-    <link href="./static/CSS/styles.css" rel="stylesheet"> <!-- Link to external CSS file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="./static/CSS/styles.css" rel="stylesheet">
 </head>
-
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light bg-light d-md-none fixed-top">
@@ -41,13 +39,12 @@
 
     <div class="sidenav d-none d-md-flex flex-column align-items-center">
         <img src="./static/images/profile.jpg" alt="Profile Image" class="img-fluid img-profile rounded-circle mx-auto mb-2">
-        <h2 class="heading">Sai Manam </h2>
+        <h2 class="heading">Sai Manam</h2>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <!-- LinkedIn and GitHub Icons -->
         <div class="social-icons d-flex justify-content-center mt-3">
             <a href="https://www.linkedin.com/in/saisubhashm" target="_blank" class="mx-2">
                 <i class="fab fa-linkedin fa-2x"></i>
@@ -61,14 +58,13 @@
         </div>
     </div>
 
-    <!-- Page content -->
-    <div class="main">
+    <div class="main" id="main-content">
         <div id="about">
             <h2>About</h2>
             <p>
                 Hello! I'm Sai Manam, an energetic and passionate data science student dedicated to leveraging technology
-                for a better tomorrow. Currently pursuing a Master of Science in Data Science and Analytics at Georgia State
-                University, I specialize in Big Data and Machine Learning. I have a strong foundation in software
+                for a better tomorrow. Currently pursuing a Master of Science in Data Science and Analytics at Georgia
+                State University, I specialize in Big Data and Machine Learning. I have a strong foundation in software
                 engineering and a keen interest in learning new technologies and languages.
             </p>
             <p>
@@ -93,27 +89,93 @@
         </div>
         <div id="experience">
             <h2>Experience</h2>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="experience-item">
+                <h3>Graduate Research Assistant</h3>
+                <h4>NASA's Data Mining Lab</h4>
+                <p><strong>August 2022 - Present</strong></p>
+                <ul>
+                    <li>Assisted in the development and optimization of machine learning models for data analysis and interpretation.</li>
+                    <li>Collaborated with a team to analyze large datasets, contributing to significant findings and publications.</li>
+                    <li>Developed scripts in Python for data cleaning, preprocessing, and visualization.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Programmer Analyst Intern</h3>
+                <h4>Cognizant</h4>
+                <p><strong>May 2021 - August 2021</strong></p>
+                <ul>
+                    <li>Designed and developed RESTful APIs using Java and Spring Boot, improving data integration processes.</li>
+                    <li>Implemented backend services for various applications, enhancing performance and scalability.</li>
+                    <li>Collaborated with cross-functional teams to define project requirements and deliverables.</li>
+                </ul>
+            </div>
         </div>
 
         <div id="projects">
             <h2>Projects</h2>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="project-item">
+                <h3>Predictive Analytics on Healthcare Data</h3>
+                <p><strong>Description:</strong> Developed a machine learning model to predict patient readmission rates using Python and TensorFlow.</p>
+                <p><strong>Technologies:</strong> Python, TensorFlow, Pandas, NumPy, Scikit-learn</p>
+                <ul>
+                    <li>Cleaned and preprocessed large datasets to ensure high-quality data input.</li>
+                    <li>Built and optimized predictive models to achieve high accuracy and precision.</li>
+                    <li>Visualized data insights and model performance using Matplotlib and Seaborn.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Real-time Sentiment Analysis</h3>
+                <p><strong>Description:</strong> Created a web application to perform real-time sentiment analysis on social media posts using Django and React.</p>
+                <p><strong>Technologies:</strong> Django, React, JavaScript, HTML/CSS, RESTful APIs</p>
+                <ul>
+                    <li>Designed and implemented the frontend using React for dynamic and responsive UI.</li>
+                    <li>Developed backend services with Django to handle sentiment analysis and data storage.</li>
+                    <li>Integrated APIs to fetch real-time data from social media platforms.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>IoT-based Smart Home System</h3>
+                <p><strong>Description:</strong> Developed an IoT-based system to automate home appliances using Arduino and Google Cloud Platform.</p>
+                <p><strong>Technologies:</strong> Arduino, C++, Google Cloud Platform, MQTT</p>
+                <ul>
+                    <li>Programmed Arduino microcontrollers to control and monitor home appliances.</li>
+                    <li>Set up MQTT protocols for efficient communication between devices.</li>
+                    <li>Implemented cloud services for data storage and remote access using Google Cloud Platform.</li>
+                </ul>
+            </div>
         </div>
 
         <div id="education">
             <h2>Education</h2>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="education-item">
+                <h3>Georgia State University</h3>
+                <p><strong>Master of Science in Data Science and Analytics (Big Data and Machine Learning)</strong></p>
+                <p>August 2022 - July 2024</p>
+                <p><strong>GPA:</strong> 3.7</p>
+            </div>
+            <div class="education-item">
+                <h3>V.R Siddhartha Engineering College</h3>
+                <p><strong>Bachelor of Technology in Computer Science</strong></p>
+                <p>August 2018 - May 2022</p>
+                <p><strong>GPA:</strong> 3.5</p>
+            </div>
         </div>
 
         <div id="skills">
             <h2>Skills</h2>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <ul>
+                <li><strong>Languages:</strong> Python, Java, C, HTML/CSS, JavaScript, SQL, C++, NoSQL, BASH, Git, Splunk, SAS, PowerShell</li>
+                <li><strong>Developer Tools:</strong> Tableau, VS Code, PyCharm, Docker, Google Cloud Platform, Hadoop, Selenium, G Suite, Office 365</li>
+                <li><strong>Technologies/Frameworks:</strong> Django, Spring Boot, ETL, Snowflake, React, Bootstrap, Agile, SDLC, IoT, GCP, JIRA</li>
+                <li><strong>ML Skills:</strong> PyTorch, Keras, TensorFlow, OpenCV, Time Series Modelling, Pandas, Numpy, Exploratory Data Analysis</li>
+                <li><strong>Certifications:</strong> GCP certified Associate Cloud Engineer, AWS certified Cloud Practitioner</li>
+            </ul>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./static/JS/scripts.js"></script>
 </body>
 </html>

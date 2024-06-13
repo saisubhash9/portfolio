@@ -75,12 +75,14 @@ font-size: 15px;
     }
     .main {
         margin-left: 0;
+        margin-right: 0.5px;
         padding-top: 60px;
         padding-left: 10px;
     }
     .img-profile {
         display: none; /* Hide the profile image on small screens */
     }
+
 
 }
 
